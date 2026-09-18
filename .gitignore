@@ -21,6 +21,7 @@ App_Data/*.ldf
 *.PublishSettings
 **/Properties/PublishProfiles/*.user
 publish/
+wwwroot/lib/
 
 # Frontend Dependencies (for ASP.NET Core with JS toolchains)
 node_modules/
@@ -31,3 +32,4 @@ appsettings*.local.json
 secrets.json
 .env
 *.log
+favicon.ico
