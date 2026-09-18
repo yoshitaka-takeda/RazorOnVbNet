@@ -1,0 +1,33 @@
+# Build and Output Directories
+bin/
+obj/
+out/
+
+# Visual Studio & IDE User Settings
+.vs/
+*.user
+*.userosscache
+*.suo
+*.docstates
+*.userprefs
+
+# NuGet Packages (if using legacy packages.config)
+packages/
+*.nupkg
+
+# Web Application & Local Publishing
+App_Data/*.mdf
+App_Data/*.ldf
+*.PublishSettings
+**/Properties/PublishProfiles/*.user
+publish/
+
+# Frontend Dependencies (for ASP.NET Core with JS toolchains)
+node_modules/
+.m2/
+
+# Environment Files & Secrets
+appsettings*.local.json
+secrets.json
+.env
+*.log
